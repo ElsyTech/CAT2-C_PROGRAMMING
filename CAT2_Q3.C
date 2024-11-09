@@ -1,25 +1,19 @@
-//Peprocesser directive
+//Program that request user to hours worked
 /*
-Name: elossy
+Name: MWENDWA ELOSSY SIMON
 Reg no: CT101/G/21429/24
 */
-
 #include<stdio.h>
 int main(){
-	float hoursworked;
-	float hourlywage;
-	float grosspay;
-	float overtimepay;
-	float taxes;
-	float netpay;
+	float hoursworked,hourlywage,grosspay,overtime pay,taxes,netpay;
 	
-		printf("enter hoursworked:");
+	printf("enter hoursworked:");
 	scanf("%f",&hoursworked);
 	printf("enter hourlywage:");
 	scanf("%f",&hourlywage);
 	
 	if(hoursworked<=40){
-		grosspay=hoursworked*hourlywage;
+	grosspay=hoursworked*hourlywage;
 	}else{
 		grosspay=(40*hourlywage)+(hoursworked-40)*(1.5*hourlywage);
 	}
